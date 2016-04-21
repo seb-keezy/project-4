@@ -27,6 +27,9 @@ void draw() {
   if(page==2){
     city();
   }
+  if(page==3){
+    desert();
+  }
 }
 
 void motion() {
@@ -66,6 +69,9 @@ void keyPressed() {
   }
   if(key == '2'){
     page=2;
+  }
+  if(key == '3'){
+    page=3;
   }
 }
 
