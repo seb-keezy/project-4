@@ -1,6 +1,6 @@
+CLOUD bB = new CLOUD(0,350,400);
 
-
-
+CLOUD b1 = new CLOUD(500,300,100);
 
 PORTAL p2= new PORTAL(650,350,3);
 
@@ -15,7 +15,7 @@ void city() {
   
   bordersAndCamera();
   jump = 1;//1 line of code. falling jump fix
-  cB.update();
+  bB.update();
   motion();
   
   p2.update();
