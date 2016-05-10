@@ -5,10 +5,6 @@ int page=1;
 
 
 
-
-
-PORTAL p2= new PORTAL(650,350,3);
-
 void setup() {
   size(400, 400);
   frameRate(30);

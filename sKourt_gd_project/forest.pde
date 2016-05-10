@@ -9,6 +9,7 @@ CLOUD c4 = new CLOUD(900,250,100);
 CLOUD c5 = new CLOUD(1050,300,100);
 
 PORTAL p1= new PORTAL(650,350,2);
+
 void forest() {
   background(#52CAFF);
   mountain(100-cameraX*.2,100,#34B933,2);

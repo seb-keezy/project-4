@@ -10,9 +10,6 @@ void desert() {
   bordersAndCamera();
   jump = 1;//1 line of code. falling jump fix
   cB.update();
-  cB1.update();
-  c1.update();
-  c2.update();
   motion();
 }
 

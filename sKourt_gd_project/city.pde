@@ -1,3 +1,9 @@
+
+
+
+
+PORTAL p2= new PORTAL(650,350,3);
+
 void city() {
   background(240);
   
@@ -10,9 +16,6 @@ void city() {
   bordersAndCamera();
   jump = 1;//1 line of code. falling jump fix
   cB.update();
-  cB1.update();
-  c1.update();
-  c2.update();
   motion();
   
   p2.update();
