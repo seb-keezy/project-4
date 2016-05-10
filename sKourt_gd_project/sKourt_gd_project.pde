@@ -3,14 +3,10 @@ float gx, gy, gvy;
 int goRight, goLeft, jump;
 int page=1;
 
-CLOUD cB = new CLOUD(0, 350, 400);
-CLOUD cB1=new CLOUD(500, 350, 400);
-
-CLOUD c1 = new CLOUD(50, 300, 100);
-CLOUD c2 = new CLOUD(200, 250, 70);
 
 
-PORTAL p1= new PORTAL(650,350,2);
+
+
 PORTAL p2= new PORTAL(650,350,3);
 
 void setup() {
@@ -49,6 +45,12 @@ void motion() {
   //guy
   fill(#FF0000);
   rect(gx-5-cameraX, gy, 10, -30);
+  
+  if(gy>500){
+    gx=0;
+    gy=0;
+    page=1;
+  }
 }
 
 void keyPressed() {

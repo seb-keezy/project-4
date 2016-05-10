@@ -1,4 +1,4 @@
-int mapWidth = 800;
+int mapWidth = 1500;
 float cameraX = 0;
 
 void bordersAndCamera() {
