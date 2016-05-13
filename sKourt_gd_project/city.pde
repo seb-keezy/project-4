@@ -1,8 +1,11 @@
 CLOUD bB = new CLOUD(0,350,400);
+CLOUD bB2 = new CLOUD(1200,350,400);
 
 CLOUD b1 = new CLOUD(500,300,100);
+CLOUD b2 = new CLOUD(650,220,200);
+CLOUD b3 = new CLOUD(1000,300,100);
 
-PORTAL p2= new PORTAL(650,350,3);
+PORTAL p2 = new PORTAL(1400,350,3);
 
 void city() {
   background(240);
@@ -16,16 +19,14 @@ void city() {
   bordersAndCamera();
   jump = 1;//1 line of code. falling jump fix
   bB.update();
+  bB2.update();
   
   b1.update();
+  b2.update();
+  b3.update();
   
-  
-  
+  p2.update();
   motion();
-  
-  
-  
-  
 }
 
 void building(float x, float y, float c, float s, float q) {

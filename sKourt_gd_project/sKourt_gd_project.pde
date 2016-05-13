@@ -3,8 +3,6 @@ float gx, gy, gvy;
 int goRight, goLeft, jump;
 int page=1;
 
-
-
 void setup() {
   size(400, 400);
   frameRate(30);

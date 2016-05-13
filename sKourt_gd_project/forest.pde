@@ -37,7 +37,6 @@ void forest() {
   p1.update();
   motion();
 
-  //p1.update();
 }
 
 void tree(float x, float y, color c1, color c2, float s) {
