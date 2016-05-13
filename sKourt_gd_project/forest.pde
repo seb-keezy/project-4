@@ -8,7 +8,7 @@ CLOUD c3 = new CLOUD(700,280,100);
 CLOUD c4 = new CLOUD(900,250,100);
 CLOUD c5 = new CLOUD(1050,300,100);
 
-PORTAL p1= new PORTAL(650,350,2);
+PORTAL p1= new PORTAL(1400,350,2);
 
 void forest() {
   background(#52CAFF);
@@ -34,6 +34,7 @@ void forest() {
   c4.update();
   c5.update();
   
+  p1.update();
   motion();
 
   //p1.update();

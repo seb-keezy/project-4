@@ -16,9 +16,13 @@ void city() {
   bordersAndCamera();
   jump = 1;//1 line of code. falling jump fix
   bB.update();
+  
+  b1.update();
+  
+  
+  
   motion();
   
-  p2.update();
   
   
   
