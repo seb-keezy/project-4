@@ -22,8 +22,8 @@ class THWOMP {
     }
     if (tState == 2) {
       y-=5;
-      if (y < 100 ) {
-        y = 100 ;
+      if (y < 50 ) {
+        y = 50 ;
         tState = 0;
       }
     }
