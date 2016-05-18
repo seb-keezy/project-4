@@ -5,9 +5,7 @@ CLOUD b1 = new CLOUD(500,300,100);
 CLOUD b2 = new CLOUD(650,220,200);
 CLOUD b3 = new CLOUD(1000,300,100);
 
-THWOMP t1 = new THWOMP(300,100,300);
-
-
+THWOMP t1 = new THWOMP(280,100,300);
 
 PORTAL p2 = new PORTAL(1400,350,3);
 
@@ -31,7 +29,7 @@ void city() {
   
   t1.update();
   
-  p2.update();
+  //p2.update();
   motion();
 }
 

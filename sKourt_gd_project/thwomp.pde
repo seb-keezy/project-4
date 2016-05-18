@@ -31,6 +31,7 @@ class THWOMP {
       page=1;
       gx=0;
       gy=0;
+      cameraX=0;
     }
 
 
