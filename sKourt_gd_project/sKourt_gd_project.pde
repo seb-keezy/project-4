@@ -14,10 +14,10 @@ void draw() {
   if (page==1) {
     forest();
   }
-  if(page==2){
+  if (page==2) {
     city();
   }
-  if(page==3){
+  if (page==3) {
     desert();
   }
 }
@@ -39,11 +39,18 @@ void motion() {
   //guy
   fill(#FF0000);
   rect(gx-5-cameraX, gy, 10, -30);
-  
-  if(gy>500){
+
+  if (gy>500) {
     gx=0;
     gy=0;
+    cameraX=0;
     page=1;
+    x1x=300;
+    x1y=100;
+    x2x=650;
+    x2y=150;
+    x3x=1200;
+    x3y=200;
   }
 }
 
@@ -58,15 +65,15 @@ void keyPressed() {
   if (keyCode == LEFT) {
     goLeft= 1;
   }
-  
-  
-  if(key == '1'){
+
+
+  if (key == '1') {
     page=1;
   }
-  if(key == '2'){
+  if (key == '2') {
     page=2;
   }
-  if(key == '3'){
+  if (key == '3') {
     page=3;
   }
 }

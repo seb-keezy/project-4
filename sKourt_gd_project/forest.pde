@@ -8,12 +8,25 @@ CLOUD c3 = new CLOUD(700,280,100);
 CLOUD c4 = new CLOUD(900,250,100);
 CLOUD c5 = new CLOUD(1050,300,100);
 
+
+int x1x=300;
+int x1y=100;
+int x2x=650;
+int x2y=150;
+int x3x=1200;
+int x3y=250;
+
+BOO x1 = new BOO(x1x,x1y,5);
+BOO x2 = new BOO(x2x,x2y,5);
+BOO x3 = new BOO(x3x,x3y,5);
+
 PORTAL p1= new PORTAL(1400,350,2);
 
 void forest() {
   background(#52CAFF);
   mountain(100-cameraX*.2,100,#34B933,2);
   mountain(300-cameraX*.2,120,#2B9829,1);
+  mountain(500-cameraX*.2,80,#34B933,2);
   tree(300-cameraX*.4, 262, #00aa00, #c6aa90, 2);
   tree(200-cameraX*.4, 262, #00aa00, #c6aa90, 2);
   tree(140-cameraX*.4, 270, #189817, #c6aa90, 2);
@@ -33,6 +46,10 @@ void forest() {
   c3.update();
   c4.update();
   c5.update();
+  
+  x1.update();
+  x2.update();
+  x3.update();
   
   p1.update();
   motion();
