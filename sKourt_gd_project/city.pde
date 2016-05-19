@@ -8,9 +8,9 @@ CLOUD b3 = new CLOUD(1000,300,100);
 THWOMP t1 = new THWOMP(280,100,300);
 THWOMP t2 = new THWOMP(700,50,160);
 
-BOO y1 = new BOO (1000,350,5);
+BOO y1 = new BOO (950,350,5);
 
-//PORTAL p2 = new PORTAL(1400,350,3);
+PORTAL p2 = new PORTAL(1400,350,3);
 
 void city() {
   background(240);
@@ -35,7 +35,7 @@ void city() {
   
   y1.update();
   
-  //p2.update();
+  p2.update();
   motion();
 }
 

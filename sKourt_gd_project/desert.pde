@@ -1,3 +1,13 @@
+CLOUD a1 = new CLOUD(250,300,500);
+CLOUD a2 = new CLOUD(850,350,100);
+
+
+THWOMP u1 = new THWOMP(300,100,240);
+THWOMP u2 = new THWOMP(400,100,240);
+THWOMP u3 = new THWOMP(500,100,240);
+THWOMP u4 = new THWOMP(600,100,240);
+THWOMP u5 = new THWOMP(700,100,240);
+
 void desert() {
   background(#77C8FA);
   dunes(150-cameraX*.4, 200, 300, #E5B83A);
@@ -10,6 +20,14 @@ void desert() {
   bordersAndCamera();
   jump = 1;//1 line of code. falling jump fix
   cB.update();
+  
+  a1.update();
+  
+  u1.update();
+  u2.update();
+  u3.update();
+  u4.update();
+  u5.update();
   motion();
 }
 

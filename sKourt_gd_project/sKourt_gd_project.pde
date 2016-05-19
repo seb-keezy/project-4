@@ -22,6 +22,8 @@ void draw() {
   }
 }
 
+
+
 void motion() {
   if (goRight == 1) {
     gx += 5;
