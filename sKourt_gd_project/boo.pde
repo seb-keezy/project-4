@@ -23,13 +23,6 @@ class BOO {
       gx=0;
       gy=0;
       cameraX=0;
-      page=1;
-      x1x=300;
-      x1y=100;
-      x2x=650;
-      x2y=150;
-      x3x=1200;
-      x3y=200;
     }
   }
 }

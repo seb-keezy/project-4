@@ -10,7 +10,7 @@ THWOMP t2 = new THWOMP(700,50,160);
 
 BOO y1 = new BOO (1000,350,5);
 
-PORTAL p2 = new PORTAL(1400,350,3);
+//PORTAL p2 = new PORTAL(1400,350,3);
 
 void city() {
   background(240);

@@ -28,7 +28,6 @@ class THWOMP {
       }
     }
     if(gx + 5 > x && gx - 5 < x + 50 && gy - 30 < y + 60){
-      page=1;
       gx=0;
       gy=0;
       cameraX=0;

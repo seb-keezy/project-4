@@ -8,17 +8,9 @@ CLOUD c3 = new CLOUD(700,280,100);
 CLOUD c4 = new CLOUD(900,250,100);
 CLOUD c5 = new CLOUD(1050,300,100);
 
-
-int x1x=300;
-int x1y=100;
-int x2x=650;
-int x2y=150;
-int x3x=1200;
-int x3y=250;
-
-BOO x1 = new BOO(x1x,x1y,5);
-BOO x2 = new BOO(x2x,x2y,5);
-BOO x3 = new BOO(x3x,x3y,5);
+BOO x1 = new BOO(300,100,5);
+BOO x2 = new BOO(650,150,5);
+BOO x3 = new BOO(1200,270,3);
 
 PORTAL p1= new PORTAL(1400,350,2);
 
