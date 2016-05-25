@@ -19,6 +19,7 @@ void draw() {
   }
   if (page==3) {
     desert();
+    mapWidth=2000;
   }
 }
 

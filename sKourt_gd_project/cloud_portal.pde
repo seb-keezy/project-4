@@ -38,9 +38,7 @@ class PORTAL {
       gx=0;
       gy=0;
     }
-    if(page==3){
-      mapWidth=2000;
-    }
+    
     
     fill(128);
     ellipse(x-cameraX, y, 60, 30);
