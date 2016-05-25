@@ -11,19 +11,25 @@ void setup() {
 
 void draw() {
   background(255);
+  if (page==0){
+    titlePage();
+  }
   if (page==1) {
     forest();
+    mapWidth=1500;
   }
   if (page==2) {
     city();
+    mapWidth=1500;
   }
   if (page==3) {
     desert();
     mapWidth=2000;
   }
+  if (page==4){
+    endPage();
+  }
 }
-
-
 
 void motion() {
   if (goRight == 1) {
