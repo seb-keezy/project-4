@@ -1,7 +1,7 @@
 // sebastian and blas
 float gx, gy, gvy;
 int goRight, goLeft, jump;
-int page=1;
+int page;
 
 void setup() {
   size(400, 400);
@@ -78,6 +78,9 @@ void keyPressed() {
   }
   if (key == '3') {
     page=3;
+  }
+  if (key == '4'){
+    page=4;
   }
 }
 

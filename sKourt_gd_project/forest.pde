@@ -8,8 +8,8 @@ CLOUD c3 = new CLOUD(700,280,100);
 CLOUD c4 = new CLOUD(900,250,100);
 CLOUD c5 = new CLOUD(1050,300,100);
 
-BOO x1 = new BOO(250,150,5);
-BOO x2 = new BOO(620,200,5);
+BOO x1 = new BOO(250,150,4);
+BOO x2 = new BOO(620,200,4);
 BOO x3 = new BOO(1200,270,3);
 
 PORTAL p1= new PORTAL(1400,350,2);
